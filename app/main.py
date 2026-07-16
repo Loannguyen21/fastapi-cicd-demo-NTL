@@ -9,7 +9,7 @@ app = FastAPI(
 @app.get("/")
 def read_root():
     return {
-        "message": "Hello DevOps! App đang chạy."
+        "message": "Hello DevOps Lab 6 - Auto Deploy!"
     }
 
 
